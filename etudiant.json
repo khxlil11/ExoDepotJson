@@ -1,0 +1,13 @@
+{
+"nom":"Bamba",
+"prenom":"ibrahim khalil",
+"age": 20,
+"fillier" :"BTS informatique",
+"competence" :[
+    "HTML",
+    "CSS",
+    "PHP"
+],
+"etudiant":true
+
+}
