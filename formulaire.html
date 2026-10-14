@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Se connecter</h1>
+    <p class="intro">Entrez vos identifiants pour accéder à votre compte.</p>
+
+    <form id="formulaire" novalidate>
+      <div class="champ">
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" autocomplete="username">
+      </div>
+
+      <div class="chap">
+        <label for="mdp">Mot de passe</label>
+        <input type="password" id="mdp" name="mdp" autocomplete="current-password">
+      </div>
+
+      <a class="oublie" href="#">Mot de passe oublié ?</a>
+
+      <button type="submit" class="envoyer" id="envoyer">Se connecter</button>
+    </form>
+
+    <p class="pied">Pas de compte ? <a href="#">Créer un compte</a></p>
+    <img src="imagekh.PNG"  alt="image" margin-left="10px" widht="50px" height="50px">
+  </main>
+</body>
+</html>  
